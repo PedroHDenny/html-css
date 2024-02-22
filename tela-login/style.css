@@ -1,0 +1,32 @@
+@charset "UTF-8";
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing:border-box ;
+    font-family: monospace;
+}
+div{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 500px;
+    box-shadow: 2px 2px 2px black;
+}
+button{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    background-image: linear-gradient(#e731e7d2, #8b0085);
+}
+input{
+    width: 200px;
+    height: 25px;
+}
+p{
+    
+}
+body{
+    background-image: image(fundo.jpg);
+}

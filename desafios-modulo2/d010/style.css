@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(font/idroid.otf) format(opentype);
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    line-height: 24px;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to top, #445C4C, #48B16B );
+    color: white;
+    padding: 30px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.486);
+    margin-top: -20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.644);
+}
+#titulo{
+    padding-bottom: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+#navegar{
+    padding-top: 40px;
+    margin-bottom: -15px;
+    text-align: initial;
+    margin-left: -20px;
+}
+nav>a:hover{
+    background-color: rgba(255, 255, 255, 0.418);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+body{
+    background-color: #79D584;
+    margin: auto;
+}
+main{
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    w;
+    justify-content: center;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 5px;
+    border-radius: 0px 0px 10px 10px;
+    max-width: 800px;
+    min-width: 300px;
+}
+main>p{
+    text-indent: 17px;
+}
+.principal{
+    font-family:idroid ;
+    color: #467a4c;
+    text-shadow: 1px 1px 1px #00000077;
+    margin-bottom: 15px;
+}
+.secundario{
+    font-family: idroid;
+    color: #467a4c;
+    background-image: linear-gradient(to right, #79d5848a ,white );
+    border-radius: 3px;
+    padding: 3px;
+}
+p{
+    margin: 10px;
+}
+.chave{
+    color: #2aad3a;
+    font-weight: bold;
+}
+.link{
+    text-decoration: none;
+    color: #445C4C;
+    font-weight: bold;
+}
+iframe{
+    border: solid 70px #445C4C;
+    justify-content: center;
+    margin: 15px -20px 15px -20px;
+}
+article{
+    background-color:#79d584e8;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 22px;
+}
+h3{
+    background-color: #2aad398f;
+    padding: 20px;
+    border-radius: 22px 22px 0px 0px;
+    margin: -9px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    background-color: #307446cb;
+    margin-bottom: -10px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+picture{
+    width: 100%;
+}
+
+
+
