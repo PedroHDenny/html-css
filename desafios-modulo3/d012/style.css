@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+background-color: black;
+color: white;
+height: 250px;
+text-align: center;
+}
+
+header p{
+    padding-top: 50px;
+    
+}
+
+header h1{
+    padding-top: 60px;
+    font-family: 'Titan One';
+    font-weight: normal;
+    font-size: 3.4em;
+}
+
+main{
+    background-color: white;
+    line-height: 50px;
+}
+
+div#img1{
+    background-image:url(imagens/background001.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+    background-position: center center;
+}
+div#img2{
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+    background-position: center center;
+}
+
+div p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.322);
+}
+
+div>article>p{
+    width: 280px;
+}
+p{
+    margin-left: 35px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
