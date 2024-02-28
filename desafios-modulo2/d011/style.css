@@ -6,11 +6,12 @@
 img{
     margin: auto;
     display: block;
-    margin-top: 170px;
+
 }
 body{
     background-image: url(imagens/espaco.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    background-size: 200vh;
+    background-size: 100vw;
 }
